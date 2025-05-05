@@ -71,6 +71,9 @@ Gambar dari dataset yang memiliki resolusi tidak seragam diubah ukurannya menjad
 
 ### 8. Inference
 Inference dilakukan menggunakan model yang disimpan dalam format **SavedModel** dan **TensorFlow Lite** untuk melihat hasil prediksi gambar. Kedua model menghasilkan prediksi yang akurat.
+![inference savedmodel](https://github.com/user-attachments/assets/f245f88b-c547-4f3a-be02-cb2908d3d31e)
+![inference tflitemodel](https://github.com/user-attachments/assets/ae35721d-68b1-4f19-afa1-993cc34ff7cc)
+
 
 ## Kesimpulan
 Proyek ini berhasil mengklasifikasikan gambar ke dalam tiga kategori dengan akurasi lebih dari 98%. Semua kriteria yang ditentukan telah dipenuhi, termasuk pembagian dataset, arsitektur model, dan format penyimpanan model yang memungkinkan penggunaan model di berbagai platform. Proyek ini juga berhasil mengimplementasikan semua saran penilaian termasuk callback untuk menghentikan pelatihan otomatis jika akurasi mencapai lebih dari 98%, gambar pada dataset asli memiliki resolusi yang tidak seragam, dataset terdiri lebih dari 10000 gambar lebih tepatnya 15000 gambar, terdiri dari 3 kelas, akurasi >95% lebih tepatnya 98%, serta melakukan inference dengan dua model yang berbeda: **SavedModel** dan **TensorFlow Lite**.
